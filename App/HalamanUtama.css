@@ -1,0 +1,94 @@
+/* ===============================
+   CSS untuk Halaman Utama
+   =============================== */
+
+/* ========== NAVBAR ========== */
+.navbar {
+    -fx-background-color: rgba(200, 190, 170, 0.9);
+    -fx-font-weight: bold;
+}
+
+.navbar .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #2e2b29;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.navbar .button:hover {
+    -fx-background-color: #b4a89a;
+    -fx-text-fill: white;
+}
+
+/* ========== TEKS UTAMA ========== */
+.judul {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e2b29;
+}
+
+.deskripsi {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2e2b29;
+    -fx-text-alignment: center;
+}
+
+/* ========== TOMBOL UTAMA ========== */
+.btn-utama {
+    -fx-background-color: #b4a89a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.btn-utama:hover {
+    -fx-background-color: #9f9285;
+}
+
+/* HalamanUtama.css */
+
+/* Judul utama */
+.judul {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Area status booking */
+.area-status {
+    -fx-pref-height: 250px;
+    -fx-pref-width: 400px;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* Tombol utama */
+.btn-utama {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18;
+}
+.btn-utama:hover {
+    -fx-background-color: #27ae60;
+}
+
+/* Tombol kembali */
+.btn-kembali {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18;
+}
+.btn-kembali:hover {
+    -fx-background-color: #c0392b;
+}

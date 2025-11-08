@@ -1,0 +1,77 @@
+.root {
+    -fx-font-family: "SansSerif";
+}
+
+/* Navbar */
+.navbar {
+    -fx-background-color: #b4ada0;
+    -fx-padding: 10 20;
+    -fx-alignment: center-left;
+    -fx-spacing: 15;
+    -fx-background-radius: 20;
+}
+
+/* Tombol kiri (Logo / TNGM) */
+.nav-left {
+    -fx-background-color: #b4ada0;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.nav-left:hover {
+    -fx-background-color: #a69f90;
+}
+
+/* Tombol kanan (Panduan, Logout) */
+.nav-button {
+    -fx-background-color: #b4ada0;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-background-radius: 8;
+}
+
+.nav-button:hover {
+    -fx-background-color: #a69f90;
+}
+
+/* Konten Tengah */
+.content .title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+}
+
+.content .description {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-text-alignment: center;
+}
+
+/* Tombol utama */
+.main-button {
+    -fx-background-color: #968c78;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 25;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.main-button:hover {
+    -fx-background-color: #7f7565;
+}
+
+"-fx-background-color: linear-gradient(to bottom right, #4e54c8, #8f94fb);");
+
+        Scene scene = new Scene(root, 400, 450);
+        primaryStage.setTitle("Halaman Login");
+        primaryStage.setScene(scene);
+        primaryStage.show();

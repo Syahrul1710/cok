@@ -1,0 +1,20 @@
+=== DATA BOOKING PENDAKIAN ===
+Nama Ketua : asdfqd
+NIK Ketua  : sadasd
+Tanggal    : 2025-11-22
+Durasi     : 2 hari
+Jalur      : Selo
+Guide      : Ya
+
+Jumlah Anggota : 2
+Daftar Anggota:
+- asas | NIK: zDZD | HP: XzX
+- ZXXZ | NIK: ZCSCsdsd | HP: zxcxzxcc
+
+Perbekalan:
+- Jaket : 3
+- Handwarmer : 3
+- Bodywarmer : 3
+- Air minum (liter per orang) : 9
+
+Status Pembayaran: Sudah Dibayar (Disetujui Admin)
